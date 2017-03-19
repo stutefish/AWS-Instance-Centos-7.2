@@ -18,3 +18,6 @@ The AWS Marketplace CentOS AMI you started with creates a security group that al
 3. Select the "Webserver" Group, and select **Assign Security Groups**
 ---
 Your Instance should now be accessible from the Internet over Port 80. 
+---
+### Bonus
+Later on, you may want to update your "Webserver" group to include SSH (port 22) access over the Internet. That way you can assign a single group at launch time, that covers both requirements (SSH for administration, HTTP for the website).
